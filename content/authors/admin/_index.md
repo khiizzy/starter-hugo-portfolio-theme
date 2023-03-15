@@ -1,6 +1,6 @@
 ---
 title: Dr. Khizer Hafeez
-role: ""
+role: Dentist, DDS.
 avatar_filename: https://media.licdn.com/dms/image/C4D03AQGgKbBTjjXEEA/profile-displayphoto-shrink_800_800/0/1628476913884?e=1684368000&v=beta&t=R5913rv9Piz_kjTb84n4RuDBXK8pL1Pbtt7hzCluWuU
 bio: As a Doctor of Dental Surgery, Dr. Khizer Hafeez is a dynamic and
   multifaceted professional who is passionate about providing patients with the
@@ -27,6 +27,7 @@ social:
     icon_pack: fab
     link: https://www.instagram.com/khiizzyy/
 organizations: []
+email: khizerhafeez@gmail.com
 superuser: true
 status:
   icon: ☕️
