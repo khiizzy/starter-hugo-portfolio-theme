@@ -4,7 +4,7 @@ widget_id: About
 headless: true
 weight: 10
 author: admin
-active: false
+active: true
 design:
   background:
     image: https://media.licdn.com/dms/image/C4D03AQGgKbBTjjXEEA/profile-displayphoto-shrink_800_800/0/1628476913884?e=1684368000&v=beta&t=R5913rv9Piz_kjTb84n4RuDBXK8pL1Pbtt7hzCluWuU
