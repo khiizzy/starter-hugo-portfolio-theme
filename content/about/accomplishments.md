@@ -23,13 +23,13 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-  - certificate_url: https://www.coursera.org
+  - certificate_url: https://cihr-irsc.gc.ca/e/193.html
     date_end: ''
-    date_start: '2021-01-25'
+    date_start: '2018-01-25'
     description: ''
-    organization: Coursera
-    organization_url: https://www.coursera.org
-    title: Neural Networks and Deep Learning
+    organization: Canadian Institutes of Health Research 
+    organization_url: https://cihr-irsc.gc.ca/e/37788.html
+    title: International Gender Medicine Conference
     url: ''
   - certificate_url: https://www.edx.org
     date_end: ''

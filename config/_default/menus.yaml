@@ -7,6 +7,9 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: Resumé
-    url: about/
+  - name: Patient Cases
+    url: /gallery/
     weight: 20
+  - name: CV
+    url: about/
+    weight: 30

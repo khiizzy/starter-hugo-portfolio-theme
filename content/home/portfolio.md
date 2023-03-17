@@ -8,7 +8,7 @@ widget: portfolio
 headless: true
 
 # Order that this section appears on the page.
-weight: 20
+weight: 100
 
 title: ''
 subtitle: ''
@@ -28,13 +28,16 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Machine Learning
-      tag: ML
-    - name: Computer Vision
-      tag: CV
-    - name: NLP
-      tag: NLP
-
+    - name: Oral Surgery
+      tag: ''
+    - name: Prosthodontics
+      tag: ''
+    - name: Endodontics
+      tag: ''
+    - name: Implant Dentistry
+      tag: ''
+    - name: Aesthetic Dentistry
+      tag: ''
 design:
   columns: '1'
   view: masonry
