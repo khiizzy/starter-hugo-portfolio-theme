@@ -20,13 +20,10 @@ design:
 
 # Add the logos for your clients/affiliations.
 clients:
-  - image: static/affiliations/client1.svg
-    name: Client 1
-  - image: static/affiliations/client2.svg
+  - image: /affiliations/aff1
+    name: Affiliate 1
+  - image: /affiliations/client2
     name: Client 2
-  - image: static/affiliations/client3.svg
+  - image: /affiliations/client3
     name: Client 3
----
-
-
 ---
