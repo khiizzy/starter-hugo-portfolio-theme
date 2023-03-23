@@ -1,24 +1,17 @@
 ---
-# Display name
-title: <span class="affiliations-title">Affiliations</span>
-
-# Section subtitle shown below title
-subtitle: 
-
-# Order that this section appears on the page.
+widget: https://wowchemy.com/blocks/logos/
+widget_id: Affiliations
 weight: 200
-
-# Choose the section design from the list of available designs.
-# Remove this option to use the default design.
+title: <span class="affiliations-title">Affiliations</span>
+subtitle: null
 design:
-  columns: '2'
+  columns: "2"
   view: tiles
   flip_alt_rows: false
   background:
     color: ""
     text_color_light: true
-
-# Add the logos for your clients/affiliations.
+    image: aff1.svg
 clients:
   - image: /affiliations/aff1
     name: Affiliate 1
