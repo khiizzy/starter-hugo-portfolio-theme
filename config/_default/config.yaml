@@ -38,6 +38,8 @@ module:
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
+    - path: github.com/Darthagnon/hugo-easy-gallery
+
 
 ############################
 ## ADVANCED
@@ -56,7 +58,7 @@ permalinks:
   categories: '/category/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
+  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects, ]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos

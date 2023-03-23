@@ -103,3 +103,4 @@ extensions:
     local_backend: false
   academicons:
     enable: false
+  easy_gallery_theme: "hugo-easy-gallery"

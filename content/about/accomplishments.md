@@ -29,6 +29,7 @@ item:
     description: ''
     organization: Canadian Institutes of Health Research 
     organization_url: https://cihr-irsc.gc.ca/e/37788.html
+    organization_logo: nyu-logo
     title: International Gender Medicine Conference
     url: ''
   - certificate_url: https://www.edx.org
@@ -47,6 +48,7 @@ item:
     organization_url: https://www.datacamp.com
     title: 'Object-Oriented Programming in R'
     url: ''
+    
 
 design:
   columns: '1'
