@@ -1,0 +1,23 @@
+{{ $images := (.Get "dir") }}
+{{ $images = printf "%s" $images }}
+
+{{ with .Site.GetPage "section" "gallery" }}
+  {{ with .Site.GetPage "home" }}
+    {{ .Scratch.Set "lightboxID" (add (mod .Params.lightboxID 100) 1) }}
+    {{ .Scratch.Set "galleryID" (add (mod .Params.galleryID 100) 1) }}
+    {{ .Scratch.Set "thumbID" (add (mod .Params.thumbID 100) 1) }}
+  {{ end }}
+  <div class="gallery" id="gallery{{ $.Scratch.Get "galleryID" }}" itemscope itemtype="http://schema.org/ImageGallery">
+    {{ range $index, $img := .Resources.Match (printf "%s/*" $images) }}
+      {{ $scaled := $img.Resize "600x" }}
+      {{ $thumb := $img.Resize "150x" }}
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="gallery__img">
+        <a href="{{ $scaled.Permalink }}" itemprop="contentUrl" data-size="{{ $scaled.Width }}x{{ $scaled.Height }}" data-index="{{ $index }}" data-lightbox="gallery{{ $.Scratch.Get "lightboxID" }}">
+          <img src="{{ $thumb.Permalink }}" itemprop="thumbnail" alt="{{ $.Page.Title }}" class="img__thumb" />
+        </a>
+        <figcaption itemprop="caption description">{{ $.Page.Title }}</figcaption>
+      </figure>
+    {{ end }}
+  </div>
+  <div id="gallery{{ $.Scratch.Get "lightboxID" }}" class="pswp" tabindex="-1" role="dialog" aria-hidden="true"></div>
+{{ end }}
