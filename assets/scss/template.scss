@@ -133,3 +133,19 @@ ul.network-icon .big-icon {
 #affiliations {
   margin-top: 0px;
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -0.5rem;
+}
+.row > * {
+  flex: 1;
+  min-width: calc(33.333% - 1rem);
+  margin: 0.5rem;
+}
+.row img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
