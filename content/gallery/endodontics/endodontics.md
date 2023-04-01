@@ -1,11 +1,10 @@
 ---
 title: "Endodontics"
-date: 2023-04-10git 
+date: 2021-11-10T19:20:32Z
 draft: false
 ---
 
 {{< gallery >}}
-  {{< figure src="/gallery/endodontics/image1.jpg" alt="Image 1 description" >}}
-  {{< figure src="/gallery/endodontics/image2.jpg" alt="Image 1 description" >}}
-  {{< figure src="/gallery/endodontics/image3.jpg" alt="Image 1 description" >}}
+  {{< figure src="/gallery/endodontics/images/image1.jpg" alt="Image 1" >}}
+  <!-- Add more images using the same {{< figure >}} shortcode -->
 {{< /gallery >}}
